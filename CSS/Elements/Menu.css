@@ -1,0 +1,89 @@
+#Menu
+{
+    background-image: url(../../images/Backgrounds/leaves_pattern.png);
+    background-color: var(--main-color);
+}   
+
+#Menu .container .content ul
+{
+    width: fit-content;
+    text-align: center;
+    overflow: hidden;
+    
+    border: 1.5px solid #fff;
+    /* background-color: aquamarine; */
+}
+
+#Menu .container .content ul li button
+{
+    transition-duration: 0.5s;
+    color: #fff;
+}
+
+/* #Menu .container .content ul li:hover , */
+#Menu .container .content ul li button.active ,
+#Menu .container .content ul li:hover button
+{
+    background-color: #fff ;
+    color: var(--main-color);
+}
+
+#Menu .container .content .tab-content .tab-pane .box .item
+{
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    transform: scale(0);
+    max-width: 280px;
+    margin: auto;
+}
+
+#Menu .container .content .tab-content .tab-pane.show .box .item
+{
+    transform: scale(1);
+    transition-duration: 0.7s;
+    transition-timing-function: ease-out;
+}
+
+#Menu .container .content .tab-content .box .item img
+{
+    transform: scale(1.0);
+    transition-duration: 0.7s;
+}
+
+#Menu .container .content .tab-content .box .item:hover img
+{
+    transform: scale(1.2);
+}
+
+#Menu .container .content .tab-content .box .item h6 ,
+#Menu .container .content .tab-content .box .item p
+{
+    font-weight: lighter;
+    background-image: url(../../images/Backgrounds/leaves_pattern.png);
+    background-color: var(--main-color);
+    padding: 1.2% 2%;
+    margin: 0;
+    border-radius: 0 0.5rem 0.5rem 0 ;
+    position: absolute;
+    left: 0;
+    transform: translateX(-100%);
+    transition-duration: 0.7s;
+}
+
+#Menu .container .content .tab-content .box .item h6 
+{
+    top: 10px ;
+}
+
+#Menu .container .content .tab-content .box .item p
+{
+    bottom: 10px;
+}
+
+#Menu .container .content .tab-content .box .item:hover h6 ,
+#Menu .container .content .tab-content .box .item:hover p
+{
+    transform: translateX(0%);
+}
+

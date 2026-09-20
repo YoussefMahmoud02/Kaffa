@@ -1,0 +1,144 @@
+
+@media (max-width: 1300px) {
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item .container .carousel-caption p
+    {
+        width: 100%;
+        letter-spacing: 0.05rem;
+    }
+
+    header nav .container a.navbar-brand
+    {
+        width: 15%;         
+    }
+
+    header nav .container .navbar-toggler
+    {
+        /* background-color: var(--bg-success ); */
+        /* background-color: #0d2; */
+        width: 50px;
+        height: 40px;
+        border: 2px solid var(--main-color);
+        padding: 0;
+        text-align: center;
+        font-size: 1.7rem;   
+        color: var(--main-color);
+        outline: none;
+        cursor: pointer;
+    }
+
+    header nav .container .navbar-toggler:focus
+    {
+        box-shadow: none;
+    }
+
+    header nav .container .navbar-nav
+    {
+        background-color: rgba( 0 , 0 , 0 , 0.7 );
+        text-align: center;
+        /* border-radius: 1.2rem; */
+        padding: 2%;
+        overflow: hidden;
+    }
+
+    /* header nav .container .navbar-toggler::selection
+    {
+        background-color: violet;
+    } */
+
+    /* header nav .container .collapse .navbar-nav
+    {
+        background-color: black ;
+        text-align: center;
+        padding: 2% 0;
+        border-radius: 1.2rem;
+    }     */
+
+    #About .part_2 .box .item .special_card
+    {
+        max-width: 280px ;
+        margin: auto;
+    }
+
+    #Services .container .row img
+    {
+        width: 75%;
+        display: block;
+        margin: 1rem auto;
+    }
+
+    #Menu .container .content ul
+    {
+        width: max-content ;
+        overflow: auto;
+    }
+
+    .modal .modal-dialog .modal-content 
+    {
+        width: 100%;
+        /* height: 180px; */
+    }
+
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+   
+    header nav .container a.navbar-brand
+    {
+        width: 10%;         
+    }
+    
+    .modal .modal-dialog .modal-content 
+    {
+        width: 85%;
+        /* height: 180px; */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+
+    header #carouselExampleCaptions .carousel-inner .carousel-item .container .carousel-caption p
+    {
+        width: 90%;
+        letter-spacing: 0.09rem;
+    }
+    
+    #Services .container .row img
+    {
+        width: 70%;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+
+    
+    header nav .container a.navbar-brand
+    {
+        width: 7%;         
+    }
+
+    header nav .container .navbar-nav
+    {
+        background-color: transparent ;
+        text-align: center;
+        border-radius: 0;
+        padding: 0;
+    }
+    
+    #About .part_2 .box .item .special_card
+    {
+        width: inherit ;
+        /* margin: auto; */
+    }
+
+    #Services .container .row img
+    {
+        width: 95%;
+    }
+
+}

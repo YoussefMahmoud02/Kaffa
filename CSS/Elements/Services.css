@@ -1,0 +1,43 @@
+#Services
+{
+    /* height: 100vh; */
+    background-image: url(../../images/Backgrounds/beans_bg.jpg);
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+#Services::before
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0 , 0, 0 , 0.6 );
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#Services .container i
+{
+    color: var(--main-color);
+}
+
+#Services .container p
+{
+    color: var(--sup-text);
+}
+
+#Services .container .row img
+{
+    animation-name: Animate_1 ;
+    animation-duration: 0.8s ;
+    animation-timing-function: ease-out ;
+    animation-iteration-count: infinite ;
+    animation-direction: alternate ;
+
+}
