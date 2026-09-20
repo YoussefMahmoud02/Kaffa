@@ -1,0 +1,39 @@
+:root
+{
+    --main-color : #4d8b55 ;
+    --sup-text : #c2c2c2 ;
+    /* --bg-success :#198754  ; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: "Oswald", sans-serif;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6
+{
+    font-family: "Sansita Swashed", system-ui ;
+}
+
+*.text
+{
+    position: relative;
+    z-index: 2;
+}
+
+.fs-spacial 
+{
+    font-size: 0.8rem;
+} 
+
+footer
+{
+    background-color: #333;
+    border: none;
+}
